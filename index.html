@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<title>BCITS </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="layout.css">
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT US </a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECT </a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT US</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECT</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class=" w3-display-container w3-opacity-min" id="home">
+        <img src="./pics/forest0.jpg" width="100%" height="50%">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> BCITS  <span
+                    class="w3-hide-small" </span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+	<h1 class="w3-center"> ABOUT US </h1>
+        <h3 class="w3-center"> PHAM VIET HAO</h3>
+        <p class="w3-center"><strong> SOFTWARE ENGINEER</strong> </p>
+        <p>My name is Pham Viet Hao, and I am a freshman at RMIT. Before I went to RMIT, I used to study at Nam Sai Gon school, and my favorite subject back then was English. Enrolling in RMIT was my second option, but I never regret attending here. My favorite animal is a dog, and I would like to raise one in the future. In my leisure time, I usually listen to music or play video games. In particular, lately, I have been very interested in the new Taylor Swift album. As for outdoor activity, Running and jogging help me a lot, both physically and mentally. In the next three years, my goals are to learn as much as I can and try to meet new friends. Up until now, I have learned about UI/UX, basic Python, database management, and leadership skills. I hope that the pandemic will end soon and we can come back to school to study face to face.
+	</p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i> Photo of me </b></p><br>
+                <img src="./pics/IMG_5006.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me"
+                    width="500" height="333">
+            </div>
+
+            <!-- Ideal Job -->
+            <div>
+                <p>My ideal job is senior software engineer since it fits my personality from the test and the salary is very reasonable. But to become a senior software engineer, I have to acquire a lot of skills and knowledge during my university time. So to fulfill my dream, I have set my own goal in the next few years. If there is no problem, I will earn an IT Bachelor's degree with Cloud Computing as a minor by 2023, and then I will continue studying for a master's degree. And to prepare for my future career, I will intern for a company in my second year of university. Besides learning about the technology field, I also want to improve my writing and presentation skills and leadership skills.</p>
+            </div>
+        </div>
+        <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+        <p class="w3-wide"><i class="fa fa-camera"></i>Python</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">70%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo"></i>MySQL</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">15+</span><br>
+            Partners
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">5+</span><br>
+            Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">3+</span><br>
+            High Grade
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">4+</span><br>
+            Collabroration
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">PHAM VIET HOANG</h3>
+        <p class="w3-center"><strong>FRONT_END DEVELOPER </strong> </p>
+        <p>My name is Pham Viet Hoang. Currently, I am an undergraduate student at RMIT university Vietnam. I come from Quang Ngai city which is in the central of Vietnam, about 130 kilometers to Danang mega-city. Being studied in Gifted Le Khiet high school, I have more chances to follow the trends of the world, many of them are Information Technology. I am also good at Math, English and Chemistry. I have a passion for observing and discovering mysteries in internet space. My hobbies are eating and sleeping, especially is Fried chicken from KFC. I even spend some holiday time sleeping only. I have basic knowledge of Database Concept, programming language of Python, basically understand the structure of HTML, CSS and Javascript. I believe that it is very beneficial for this assignment, in the “Tool and Technologies” part. Moreover, I am also able to apply responsive design into personal websites and consider UI/ UX aspects into the project. I strongly believe these foundations would be a vital part of the project's success.
+        </p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>Photo of me</b></p><br>
+                <img src="./pics/IMG_1005.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me"
+                    width="500" height="333">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div>
+                <p>In a challenging workplace, I learned that Information Technology is a great career that has become the trend of the world, especially that humans have gotten technological breakthroughs nearly. The IT developers can apply their IT skills to many fields of life, at least 30 new emerging fields in IT in the next few ten years. The first time I searched for an Information Technology Job on a recruitment website. Front- End Developer may be the position I have followed for my career in the near future. Via recruitment information mentioned above, the Job dramatically appeals to me because the company supplies the help, promotion, and support for the company member. To clarify, the job attracts me through three main factors such as promotion, welfare regime, and flexibility. I believe that benefit from the IT industry would motivate me to succeed in this working environment.
+		</p>
+            </div>
+        </div>
+        <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+        <p class="w3-wide"><i class="fa fa-camera"></i>Python</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-laptop"></i>Data structure and Algorithms </p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">80%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo"></i>Web Design </p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">90%</div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">15+</span><br>
+            Websites Design
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">5+</span><br>
+            Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">9+</span><br>
+            HD reports
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">3+</span><br>
+            Collaboration
+        </div>
+    </div>
+
+       <!-- Container (About Section) -->
+       <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center"> DUONG SI PHU</h3>
+        <p class="w3-center"><strong>SUPPLY CHAIN MANAGER </strong> </p>
+        <p>My ID number in RMIT is s3635198, I have had this for almost 4 years and the next semester will be the last time I use it as my identity number. I have been learning Logistics and Supply Chain Management and working in export procedure for a truck transportation company. I am interested in information technology such as Blockchain, IoT which could be used in my industry and this is the reason I chose this course. I need to understand the fundamental knowledge and the future trend of IT in Supply Chain to create more advantages to other candidates in the pathway.
+
+	</p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>Photo of me</b></p><br>
+                <img src="./pics/IMG_5010.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me"
+                    width="500" height="333">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div>
+                <p>At the moment, I have one more semester left to graduate my bachelor program Logistics and Supply Chain Management from RMIT and then join the labor force. My plan for next year is to provide myself with specific knowledge about a particular section within the supply chain. For example, the skill-set and fundamental knowledge of international trade procedures which supports employees in forwarding or custom clearance communicators. In further vision, I will plan on researching and engaging in air cargo shipment to work in airports such as Long Thanh airport. I expect that the demand on the aviation industry both in cargo and passenger shipment will rise due to the openness of Vietnam to the world. Therefore, I am convincing my younger brother to consider the aviation bachelor program in RMIT to prepare for the future based on the expectation of labor force demand and the international cargo flow.
+
+		</p>
+            </div>
+        </div>
+        <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+        <p class="w3-wide"><i class="fa fa-camera"></i>Management Skill </p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-laptop"></i>UI/UX Design</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">75%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop Skill</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">85%</div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">30+</span><br>
+            Partners
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">25+</span><br>
+            Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">15+</span><br>
+            Excellent Evaluation
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">20+</span><br>
+            Collaboration
+        </div>
+    </div>
+
+       <!-- Container (About Section) -->
+       <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">NGUYEN DUC DANG KHOA</h3>
+        <p class="w3-center"><strong>DATA SCIENTIST </strong> </p>
+        <p>My name is Nguyen Duc Dang Khoa, and my student number is s3891667. I have graduated from Tran Khai Nguyen high school since 2020. I am currently a freshman at RMIT for 2 semesters, my hobbies are listening to music, coding and sometimes drawing. During the last semester, I have taught to code in python, and MySQL to manipulate the data for the users. Therefore, those have helped me to recognize my interest in the IT industry. Those are AI, machine learning, as well as website developer. I have interest in the way coders utilize information by mining them in order to create algorithms then apply to the machines. With AI and machine learning, robots are given the abilities to solve and interact with situations like humans do. About my experiences in IT, by exceeding all the assignments, I can code some simple problems in python, how to input and take output from the information, plus how to create and design a website.
+
+	</p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>Photo of me</b></p><br>
+                <img src="./pics/IMG_5004.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me"
+                    width="500" height="333">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div>
+                <p>My ideal job in the future is to become a data scientist, therefore I have enrolled my minor as a data analytic. During the last semester, I was considered between a website developer and data scientist; however, throughout projects at RMIT, I recognized almost every new technology related to Machine learning and AI. By researching, the way that people utilize data to apply to the machine and make it interact like a human is interesting. According to the minor tree at RMIT, I have learned all the first basic courses, such as Practical database and introduction to programming. Now, I am currently finishing my math for computing and introduction to IT. After this semester, I will enroll in programming 1 and further in order to complete my career plan. Becoming a data scientist is a challenging process, I must exceed many requirements before applying for the position. Specifically, my plan is to apply for many positions that are related to my ideal position. Plus, I will develop myself to become an expertise in coding languages, such as C#, Java, HTML, and CSS.
+
+		</p>
+            </div>
+        </div>
+        <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+        <p class="w3-wide"><i class="fa fa-camera"></i>Python </p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">95%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">95%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo"></i> Data Analysis </p>
+        <div class="w3-light-grey">
+            <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">70%</div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">6+</span><br>
+            Partners
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">5+</span><br>
+            Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">9+</span><br>
+            High-quality Academic Report
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">2+</span><br>
+            Collaboration
+        </div>
+    </div>
+
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">BCITS PROJECT</span>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center"> BGREEN APPLICATION</h3>
+        <p class="w3-center">In an effort to contribute to global environmental conservation, Our group has developed a smartphone app that can scan and give information about animals and plants. We named our app "Bgreen" which is short for "be green".  As the name indicates itself, we want everyone to unite and protect our dear planet. Not only does the app provide a handful of knowledge of wildlife, but it is also a tool for everyone to safeguard themselves and connect with other environmental activists.<br>
+	<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:70px"> <a href="BgreenApplication.html">FIND OUT MORE</a> </button>
+		<br> Click on the images to make
+                them bigger</p><br>
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <img src="./pics/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="The mist over the mountains">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./pics/IMG_4965.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Bear closeup">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="./pics/IMG_4977.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Quiet ocean">
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-center w3-section">
+            <div class="w3-col m3">
+                <img src="./pics/IMG_4975.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+            </div>
+
+	    <div style="text-align: center;">
+	    <h3> BCITS</h3>
+	    <h2> BGREEN APPLICATION</h2>
+	    </div>
+            <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:70px">FIND OUT MORE</button>
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="./pics/img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class=" bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">WHERE ARE WE? </h3>
+        <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+                <img src="./pics/IMG_1009.jpeg" class="w3-image w3-round" style="width:100%">
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> RMIT UNIVERSITY VIETNAM, DISTRICT 7, HCM CITY <br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +84 077 99 88 9 23<br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: s3891455@rmit.edu.vn
+		    <br>
+                </div>
+                <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+                <form action="/action_page.php" target="_blank">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                    <button class="w3-button w3-black w3-right w3-section" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p>Powered by BCITS- GROUP 10</p>
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
